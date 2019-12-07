@@ -6,4 +6,4 @@
 * Copy _roles_ directory to _/etc/eansible_
 * Copy _runsetup.yml_ to _/etc/ansible_
 * Run _runsetup.yml_
- * ansible-playbook /etc/ansible/runsetup.yml
+    ** ansible-playbook /etc/ansible/runsetup.yml
