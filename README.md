@@ -1,6 +1,6 @@
 # Mars-Project2-Ansible
 
-##How to use Ansible roles##
+## How to use Ansible roles ##
 
 * Clone repo
 * Copy roles directory to /etc/eansible
