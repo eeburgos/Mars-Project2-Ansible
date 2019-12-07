@@ -3,7 +3,7 @@
 ## How to use Ansible roles ##
 
 * Clone repo
-* Copy roles directory to /etc/eansible
-* Copy runssetup.yml to /etc/ansible
-* Run runsetup.yml
+* Copy _roles_ directory to _/etc/eansible_
+* Copy _runsetup.yml_ to _/etc/ansible_
+* Run _runsetup.yml_
  * ansible-playbook /etc/ansible/runsetup.yml
