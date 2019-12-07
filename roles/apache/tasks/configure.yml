@@ -1,0 +1,9 @@
+---
+- name: Rename default index.html to index.old
+  command: mv /var/www/html/index.html /var/www/html/index.old
+- name: Copy Mars Group index.html file to apache2 config
+  copy: src=files/index.html dest=/var/www/html
+- name: Copy Necessary images for Group Mars
+  copy: src=files/images dest=/var/www/html
+  notify:
+          - restart apache2

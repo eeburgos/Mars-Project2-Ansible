@@ -1,0 +1,3 @@
+---
+# tasks file for /etc/ansible/roles/tools
+- import_tasks: install_tools.yml
