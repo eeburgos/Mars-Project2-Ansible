@@ -1,7 +1,7 @@
 ---
 # tasks file for /etc/ansible/roles/apache
 
-- name: Install https Package
+- name: Install apache2
   apt: name=apache2 state=latest
 
 
